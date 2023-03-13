@@ -1,6 +1,14 @@
 * {
   
 }
+input {
+  border: 0;
+  outline: none;
+}
+input:active {
+  border: 0;
+  outline: none;
+}
 .main_container {
   width: 100vw;
   height: 100vh;
@@ -14,4 +22,5 @@
   min-height: 80vh;
   background-color: #4b4a4a;
   border-radius: 25px;
+  padding: 20px;
 }
