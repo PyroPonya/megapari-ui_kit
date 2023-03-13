@@ -1,0 +1,82 @@
+/* 1. breathe ------------------------------------------------------------------------------------------------------*/
+.breathe {
+    animation: breathe 1.4s linear infinite;
+}
+
+@keyframes breathe {
+    0% {
+        transform: scale(.94)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(.94)
+    }
+}
+
+/* 2. resize -------------------------------------------------------------------------------------------------------*/
+
+.resize:hover {
+	transform: scale(1.1);
+}
+
+.resize:active {
+	transform: scale(0.8);
+}
+
+/* 3. falling objects ----------------------------------------------------------------------------------------------*/
+.falling-objects {
+    animation: falling-objects 6s linear forwards infinite;
+}
+
+@keyframes falling-objects {
+    from {
+        transform: rotate(0deg) translate(-0.7vw) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translate(-0.7vw) rotate(-360deg);
+    }
+}
+
+/* 4. shadow -------------------------------------------------------------------------------------------------------*/
+.shadow:hover {
+	box-shadow: 0px 4px 31px #0D0B27;
+}
+
+/* 5. reflection */
+.reflection {
+    position: relative;
+    overflow: hidden;
+  }
+
+  @keyframes reflection {
+    0% {
+      left: -100px
+    }
+
+    20% {
+      left: 100%
+    }
+
+    100% {
+      left: 100%
+    }
+  }
+
+  .reflection:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(120deg,
+        rgba(255, 255, 255, 0) 30%,
+        rgba(255, 255, 255, .8),
+        rgba(255, 255, 255, 0) 70%);
+    top: 0;
+    left: -100px;
+    animation: reflection 3s infinite linear;
+  }

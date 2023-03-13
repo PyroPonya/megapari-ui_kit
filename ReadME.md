@@ -49,6 +49,8 @@
 1. breathe
 2. resize
 3. falling objects
+4. shadow
+5. 
 
 #### JS
 1. *language list[¿worth it?[prolly_nope]]
