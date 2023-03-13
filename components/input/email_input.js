@@ -18,7 +18,7 @@ class EmailInput extends HTMLElement {
 `;
 
     
-    const someVal = 
+    const background_color = 
     this.hasAttribute("background-color")
     ?
     this.getAttribute("background-color")
@@ -44,7 +44,7 @@ class EmailInput extends HTMLElement {
           /* border-radius: 15px; */
         }
         .email_input {
-          background-color: ${someVal};
+          background-color: ${background_color};
           border: 1px solid #D9D9D9;
           height: 50px;
           width: calc(100% - 30px);
@@ -60,7 +60,7 @@ class EmailInput extends HTMLElement {
           position: absolute;
           color: #FF0000;
           left: 2%;
-          bottom: -40%;
+          bottom: -35%;
         }
 `;
     // create some JS
@@ -85,8 +85,8 @@ class EmailInput extends HTMLElement {
     shadow.appendChild(style);
     shadow.appendChild(wrapper);
     shadow.appendChild(script);
-    console.log('style.isConnected: ', style.isConnected);
-    console.log('script.isConnected: ', script.isConnected);
+    console.log('email_input: style.isConnected: ', style.isConnected);
+    console.log('email_input: script.isConnected: ', script.isConnected);
   }
 }
 // component definition
