@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./stylereset.css" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <title>UI-kit Megapari</title>
+  <script src="./components/input/email_input.js" defer></script>
+  <script src="./components/input/switcher_input.js" defer></script>
+  <script src="./components/input/tel_input.js" defer></script>
+</head>
+<body>
+  <div class="main_container">
+    <div class="element_container">
+      <a href="/index.html" style="color: cyan; margin: 10px; display: flex;">Index</a>
+
+      <email-input></email-input>
+      <switcher-input data-start="Start" data-end="End" data-value="false"></switcher-input>
+      <tel-input country-code="911" operator-length="3" phone-length="14"></tel-input>
+
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

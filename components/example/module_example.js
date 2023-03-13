@@ -18,8 +18,6 @@ class ExampleComponent extends HTMLElement {
 `;
     // create some JS
     const script = document.createElement('script');
-    // Example RegExp for email
-    // const regularExpression = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+")){3,}@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]{2,})+.+[a-zA-Z]{1,}))$/;
     script.textContent = `
     JS logic goes here
     i.e. u can use regularExpression here (s22)
@@ -38,4 +36,11 @@ customElements.define('component-name', ExampleComponent);
 /*
 <script src="./module_example.js" defer></script>
 <component-name class="styled_class"></component-name>
+
+props:
+<custom-component img='some url'></custom-component>
+
+img.src = this.hasAttribute("img")
+  ? this.getAttribute("img")
+  : "img/default.png";
 */
