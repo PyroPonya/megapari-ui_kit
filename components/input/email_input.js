@@ -16,6 +16,16 @@ class EmailInput extends HTMLElement {
         <div class="email_error" style="display: none;">wrong format!</div>
       </div>
 `;
+
+    
+    const someVal = 
+    this.hasAttribute("background-color")
+    ?
+    this.getAttribute("background-color")
+    :
+    "#ffffff";
+
+
     // Create some CSS to apply to the shadow dom
     const style = document.createElement('style');
     style.textContent = `
@@ -34,7 +44,7 @@ class EmailInput extends HTMLElement {
           /* border-radius: 15px; */
         }
         .email_input {
-          background: #FFFFFF;
+          background-color: ${someVal};
           border: 1px solid #D9D9D9;
           height: 50px;
           width: calc(100% - 30px);
