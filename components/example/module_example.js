@@ -38,4 +38,11 @@ customElements.define('component-name', ExampleComponent);
 /*
 <script src="./module_example.js" defer></script>
 <component-name class="styled_class"></component-name>
+
+props:
+<custom-component img='some url'></custom-component>
+
+img.src = this.hasAttribute("img")
+  ? this.getAttribute("img")
+  : "img/default.png";
 */
