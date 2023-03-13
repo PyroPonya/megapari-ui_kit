@@ -120,11 +120,6 @@ class SwitcherInput extends HTMLElement {
             left: calc(100% - 120px - 2px);
             background: #1B9DD9;
         }
-        @media (max-width: 660px) {
-          .btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner:after {
-            left: 139px;
-          }
-        }
 
         .btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner:before{
             content: attr(data-off);
