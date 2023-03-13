@@ -1,3 +1,17 @@
 * {
   
 }
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2e2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.element_container {
+  width: 80vw;
+  min-height: 80vh;
+  background-color: #4b4a4a;
+  border-radius: 25px;
+}
