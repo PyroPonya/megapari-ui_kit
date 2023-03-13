@@ -31,7 +31,6 @@ class SwitcherInput extends HTMLElement {
           flex-direction: row;
           align-items: center;
           justify-content: flex-start;
-          margin-bottom: 20px;
         }
 
         .switcher label {

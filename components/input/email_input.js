@@ -36,7 +36,6 @@ class EmailInput extends HTMLElement {
         .email_input_container {
           position: relative;
           width: 100%;
-          margin-bottom: 20px;
         }
         .email_container {
           /* background-color: #a09e9e; */

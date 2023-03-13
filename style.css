@@ -24,4 +24,7 @@ input:active {
   background-color: #4b4a4a;
   border-radius: 25px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

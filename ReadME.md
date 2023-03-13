@@ -21,14 +21,14 @@
 ###### (width: 100% of parent element)
 1. [❌]buttons (rounded[border-radius: >25px], squared[border-radius: <15px], transformed[skew], scroll[up/down], support[square/circle])
 2. [✔️]input[email]
-3. [❌]input[tel]
+3. [✔️]input[tel]
 4. [❌]input[password]
 5. [❌]input[text] <!-- only input with no label -->
 6. [❌]string[@click] => input[text] <!-- i.e. promocode -->
 7. [❌]input[select] => div[select] (dropdown, lang)
 8. [❌]input[checkbox] => div[checkbox] + span
 9. [❌]input[radio] => div[toggle]
-10. [❌]input[radio] => div[switch]
+10. [✔️]input[radio] => div[switch]
 11. [❌]popup[info]
 12. [❌]menu[side/header/dropdown]
 13. [❌]loader
