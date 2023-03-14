@@ -31,25 +31,23 @@
 10. [✔️]input[radio] => div[switch]
 11. [❌]popup[info]
 12. [❌]menu[side/header/dropdown]
-13. [❌]loader
+13. [✔️]loader
 14. [❌]wheel of fortune
 15. [❌]slider (autoplay + uninteractable, interactable, background + uninteractable)
 16. [❌]timer (user-based, due)
 17. [❌]*form (¿worth it?[might_be])
 
 #### svg:
-1. [❌]logo casino
-2. [❌]logo sports
-3. [❌]logo main
-4. [❌]favicon casinio
-5. [❌]favicon sports
-6. [❌]*mobile platform icons
+1. [✔️]logo main
+2. [✔️]favicon main
+3. [✔️]*mobile platform icons
 
 #### css animation
-1. [❌]breathe
-2. [❌]resize
-3. [❌]falling objects
-4. [❌]shadow
+1. [✔️]breathe
+2. [✔️]resize
+3. [✔️]falling objects
+4. [✔️]shadow
+5. [✔️]reflection
 
 #### JS
 1. [❌]*language list[¿worth it?[prolly_nope]]
